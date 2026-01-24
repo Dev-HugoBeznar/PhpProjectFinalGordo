@@ -27,8 +27,8 @@
             laborum.</p>
     </div>
 
-    <div class="containerColumn" style="justify-self: center;  padding: 100px">
-        <div style="background-color: pink;">
+    <div class="containerColumn" style="justify-content: center;  padding: 100px">
+        <div style="background-color: #FF8787;">
             <h2 style="text-align: center; color: white; font-size: 50;">porque viajar con nosotros</h2>
             <div class="containerRow" style="padding: 25px">
                 <p style="text-align: center; color: white; padding:50px; font-size: 20;">

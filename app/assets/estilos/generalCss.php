@@ -25,7 +25,7 @@
         border-radius: 10px;
         color: black;
         display: flex;
-        justify-self: center;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
     }
@@ -45,7 +45,27 @@
 
     html,
     body {
-        background-color: darkblue;
+        background-color: #0F8BFF;
+    }
+
+    input {
+        width: 400px;
+        height: 30px;
+    }
+
+    textarea {
+        width: 400px;
+        height: 100px;
+    }
+
+    .formTextFormat {
+        color: black;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        border: 1px solid #646464;
+        border-radius: 10px;
+        box-sizing: border-box;
     }
 </style>
 
