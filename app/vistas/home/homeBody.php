@@ -40,7 +40,7 @@
                     pariatur.
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.</p>
-                <img src="../assets/imagenes/provisional.png" style="width: 400px; height: 300px; padding: 10px;">
+                <img src="../assets/imagenes/casaAleatoria.png" style="width: 400px; height: 300px; padding: 10px;">
             </div>
         </div>
     </div>
