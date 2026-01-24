@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edit this template
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+</head>
+
+
+<?php include '.\home\homeHeather.php' ?>
+
+<?php include './home/homeBody.php' ?>
+
+<?php include './home/homeFooter.php' ?>
+C:\xampp\htdocs\PhpProjectFinalGordo\app\vistas\footer.php
+C:\xampp\htdocs\PhpProjectFinalGordo\app\vistas\home\home.php
+
+</html>

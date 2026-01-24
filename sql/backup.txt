@@ -1,0 +1,91 @@
+//dejo aqui las sentencias que he usado para la base de datos
+//en caso de que de alguna forma la que estoy usando se destrulla
+//o la que esta aqui guardada no funcione
+//en el programa en todos los puntos donde accedo a la base de datos
+//tengo de acceso root root
+
+
+
+
+CREATE DATABASE viajes_db;
+USE viajes_db;
+
+CREATE TABLE viajes (
+    id_viaje INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    descripcion TEXT NOT NULL,
+    fecha_inicio DATE NOT NULL,
+    fecha_fin DATE NOT NULL,
+    precio DECIMAL(10,2) NOT NULL,
+    destacado BOOLEAN NOT NULL,
+    tipo_de_viaje VARCHAR(100) NOT NULL,
+    plazas INT NOT NULL,
+    imagen VARCHAR(255) NOT NULL
+);
+
+
+
+
+
+INSERT INTO viajes 
+(titulo, descripcion, fecha_inicio, fecha_fin, precio, destacado, tipo_de_viaje, plazas, imagen)
+VALUES
+('Escapada a Granada',
+ 'Viaje cultural por Granada con visita a la Alhambra, Albaicín y tapas típicas.',
+ '2026-04-10',
+ '2026-04-14',
+ 395.00,
+ 1,
+ 'Cultural',
+ 25,
+ 'granada.jpg'),
+
+('Ruta por la Costa de Cádiz',
+ 'Disfruta de playas, pueblos blancos y gastronomía andaluza.',
+ '2026-06-01',
+ '2026-06-07',
+ 650.00,
+ 1,
+ 'Playa',
+ 30,
+ 'cadiz.jpg'),
+
+('Fin de semana rural en la Alpujarra',
+ 'Desconexión total en plena naturaleza con rutas de senderismo.',
+ '2026-03-21',
+ '2026-03-23',
+ 180.00,
+ 0,
+ 'Rural',
+ 15,
+ 'alpujarra.jpg'),
+
+('Aventura en Sierra Nevada',
+ 'Viaje de aventura con esquí y actividades de montaña.',
+ '2026-01-15',
+ '2026-01-19',
+ 520.00,
+ 0,
+ 'Aventura',
+ 20,
+ 'sierranevada.jpg'),
+
+('Sevilla monumental',
+ 'Recorrido histórico por Sevilla: Catedral, Giralda y Real Alcázar.',
+ '2026-05-05',
+ '2026-05-08',
+ 310.00,
+ 1,
+ 'Cultural',
+ 28,
+ 'sevilla.jpg');
+
+ ('El corazón de ella',
+ 'Un viaje extremo a paisajes helados y silenciosos, donde el frío cala hasta los huesos y el hielo parece guardar secretos imposibles de romper. Una experiencia tan bella como implacable.',
+ '2026-12-01',
+ '2026-12-10',
+ 4890.00,
+ 1,
+ 'Expedición polar',
+ 8,
+ 'corazon_de_ella.jpg');
