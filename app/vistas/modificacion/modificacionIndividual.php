@@ -13,6 +13,8 @@ $username = "root";
 $password = "root";
 $dbname = "viajes_db";
 
+$id_viaje = $_GET['id_viaje'];
+
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
@@ -53,7 +55,7 @@ $stmt->close();
 
 <div style="height: 800px;">
     <h1>JODER
-        <?php echo $id_viaje; ?>
+        <?php echo $titulo; ?>
     </h1>
 </div>
 
