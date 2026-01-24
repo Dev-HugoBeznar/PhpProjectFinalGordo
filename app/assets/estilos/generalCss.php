@@ -23,6 +23,16 @@
         width: 100px;
         background-color: orange;
         border-radius: 10px;
+        color: black;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
     }
 
     .gridhome {

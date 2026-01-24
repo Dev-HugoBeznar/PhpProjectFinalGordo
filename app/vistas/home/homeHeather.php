@@ -10,7 +10,7 @@
         <a href="..\index.php" class="boton">
             home
         </a>
-        <a href="..\modificacion\modificacionIndividual.php" class="boton">
+        <a href=".\modificacion\modificacionIndividual.php" class="boton">
             nuestros <strong>viajes</strong>
         </a>
         <button class="boton">nuestro <strong>estilo</strong></button>
