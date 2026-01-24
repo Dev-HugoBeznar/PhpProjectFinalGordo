@@ -66,10 +66,10 @@
         while ($fila = $resultado->fetch_assoc()) {
             $id_viaje = $fila['id_viaje'];
             ?>
-            <div class="insideGridhome">
-                <?php include 'gridHome.php'; ?>
-            </div>
-            <?php
+                <a class="insideGridhome" href=".\modificacion\modificacionIndividual.php?id_viaje=<?php echo $id_viaje; ?>">
+                    <?php include 'gridHome.php'; ?>
+                </a>
+                <?php
         }
         ?>
     </div>
