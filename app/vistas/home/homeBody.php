@@ -7,15 +7,16 @@
             justify-content: center;
             align-items: center;
             background-color: lightblue;
-            padding: 20px;
-            width: 430px;
+            border-radius: 5px;
+            padding: 10px;
+            width: 90%;
             height: 300px;
         }
     </style>
 
 
 
-    <div style="background-image: url('../assets/imagenes/beznar.jpg'); width: 100%; height: 100%;"
+    <div style="background-image: url('../assets/imagenes/beznar.jpg'); width: 100%; height: 100%; border-radius: 5px;"
         class="containerColumn">
         <h2 style="text-align: center; color: white; font-size: 50;">Viaja con nosotros</h2>
         <p style="text-align: center; color: white; padding:80px; font-size: 20;">
@@ -28,10 +29,11 @@
     </div>
 
     <div class="containerColumn" style="justify-content: center;  padding: 100px">
-        <div style="background-color: #FF8787;">
+        <div style="background-color: #FF8787; border-radius: 5px;">
             <h2 style="text-align: center; color: white; font-size: 50;">porque viajar con nosotros</h2>
             <div class="containerRow" style="padding: 25px">
-                <p style="text-align: center; color: white; padding:50px; font-size: 20;">
+                <p style="text-align: center; color: white; padding:50px; font-size: 20; 
+                    background-color: #ffabab; border-radius: 5px; border: 1px solid #646464;">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -40,7 +42,8 @@
                     pariatur.
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.</p>
-                <img src="../assets/imagenes/casaAleatoria.png" style="width: 400px; height: 300px; padding: 10px;">
+                <img src="../assets/imagenes/casaAleatoria.png"
+                    style="width: 400px; height: 300px; padding: 10px; border-radius: 15px;">
             </div>
         </div>
     </div>

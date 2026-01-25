@@ -35,7 +35,7 @@ $stmt->close();
 ?>
 
 <div class="containerRow" style="justify-content: space-evenly;">
-    <img src="../assets/imagenes/<?php echo $imagen; ?>" style="width: 40%; height: auto;">
+    <img src="../assets/imagenes/<?php echo $imagen; ?>" style="width: 50%; height: auto; padding: 10px;">
     <div class="containerColumn">
         <h2>
             <?php echo $titulo; ?>

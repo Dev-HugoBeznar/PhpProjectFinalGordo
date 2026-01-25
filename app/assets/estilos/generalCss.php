@@ -21,6 +21,7 @@
     .boton {
         height: 40px;
         width: 100px;
+        border: 1px solid black;
         background-color: orange;
         border-radius: 10px;
         color: black;
@@ -33,6 +34,7 @@
     a {
         text-decoration: none;
         color: black;
+        text-align: center;
     }
 
     .gridhome {
@@ -66,6 +68,14 @@
         border: 1px solid #646464;
         border-radius: 10px;
         box-sizing: border-box;
+    }
+
+    header,
+    footer {
+        width: 100%;
+        background-color: #66cb2fd3;
+        border: 1px solid black;
+        border-radius: 5px;
     }
 </style>
 

@@ -1,9 +1,11 @@
-<footer style="background-color: green; height: auto; margin-top: 50px;" class="containerColumnCenter">
+<footer style="height: auto; margin-top: 50px;" class="containerColumnCenter">
 
-    <div class="containerRow" style="padding: 20px; text-align: center; align-items: center;">
+    <div class="containerRow" style="padding: 20px; align-items: center; justify-content: space-evenly;">
         <h3>Contacta con nosotros </h3>
         <img src="../assets/imagenes/logo.png" alt="logo" style="width: 150px; height: 150px; ">
     </div>
+
+    <hr style="border: 1px solid black; width: 65%;">
 
     <div class="containerRow" style="padding: 20px; text-align: center;">
         <p>Teléfono: 697 463 126</p>

@@ -13,6 +13,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 
 <?php include '.\home\homeHeather.php' ?>
 
+<div style="height: 5px;"></div>
+
 <?php include './home/homeBody.php' ?>
 
 <?php include './home/homeFooter.php' ?>

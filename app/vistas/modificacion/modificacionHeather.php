@@ -1,6 +1,6 @@
 <?php include '../../assets/estilos/generalCss.php' ?>
 
-<header style="background-color: green">
+<header>
     <div class="containerRow" style="align-items: center; padding: 10px;">
         <h1>ARWIBE</h1>
         <img src="../../assets/imagenes/logo.png" alt="logo" style="width: 150px; height: 150px; padding: 10px;">
@@ -15,10 +15,10 @@
         <a class="boton">
             nuestros <strong>viajes</strong>
         </a>
-        <button class="boton">nuestro <strong>estilo</strong></button>
-        <button class="boton">antes de <strong>viajar</strong></button>
-        <button class="boton"><strong>El coordinador</strong></button>
-        <button class="boton">comunidad <strong>viajera</strong></button>
+        <a class="boton">nuestro <strong>estilo</strong></a>
+        <a class="boton">antes de <strong>viajar</strong></a>
+        <a class="boton"><strong>El coordinador</strong></a>
+        <a class="boton">comunidad <strong>viajera</strong></a>
     </div>
     <div style="height: 15px;"> </div>
 
