@@ -1,0 +1,43 @@
+<body>
+    <?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "root";
+    $dbname = "viajes_db";
+
+    // Crear conexión
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    // Comprobar conexión
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    $sql = "SELECT id_viaje FROM viajes";
+    $resultado = $conn->query($sql);
+
+    while ($fila = $resultado->fetch_assoc()) {
+        $id_viaje = $fila['id_viaje'];
+        ?>
+        <div class="containerColumnCenter">
+            <a href="../modificacion/modificacionIndividual.php?id_viaje=<?php echo $id_viaje; ?>"
+                style="background-color: lightblue; width: 80%; padding: 20px; border: 1px solid black; border-radius: 15px;">
+
+                <?php include 'mostrarDestruir.php'; ?>
+
+            </a>
+        </div>
+
+        <!--
+        esto es para que exista un pequño espacio entre cada viaje
+        -->
+        <div style="height: 10px;"></div>
+        <?php
+    }
+    ?>
+
+    <div class="containerColumnCenter">
+        <a href="../adicion/adicionFormulario.php" class="boton">Agregar nuevo viaje</a>
+
+    </div>
+</body>
