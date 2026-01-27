@@ -45,9 +45,10 @@ $stmt->close();
 ?>
 
 
-<div class="containerRow" style=" align-items: center; justify-content:space-between;">
+<div class="containerRow" style=" align-items: center; justify-content:space-between; height: 300px;">
     <img src="<?php echo $src; ?>" style=" width: 20%; height: auto; padding: 10px;">
-    <div class="containerColumn" style=" padding: 10px;">
+    <div class="containerColumn"
+        style=" padding: 10px; background-color: #e3f4f9; width: 60%; border-radius: 15px; border: 1px solid #000000;">
         <div class="containerRow" style="with: 100%; justify-content: space-around;">
             <h2 style="padding: 5px;">
                 <?php echo $titulo; ?>
@@ -61,12 +62,15 @@ $stmt->close();
                 <?php echo $precio; ?>
             </h3>
         </div>
+
+        <hr style="width: 90%; border-color: #e3f4f9;">
+
         <div class="containerRow">
-            <p style="padding: 20px;"><?php echo $descripcion; ?></p>
+            <p style="padding: 20px; width: 65%;"><?php echo $descripcion; ?></p>
             <p style="padding: 20px;">
                 <?php echo $tipo; ?>
             </p>
         </div>
     </div>
-    <hi>boton</hi>
+    <hi>futuro borrar</hi>
 </div>

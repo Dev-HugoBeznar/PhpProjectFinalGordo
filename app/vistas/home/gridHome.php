@@ -47,14 +47,19 @@ if (!empty($imagen)) {
 <div class="containerRow" style="justify-content: space-evenly;">
 
     <img src="<?php echo $src; ?>" style="width: 50%; height: auto; padding: 10px;">
-    <div class="containerColumn">
-        <h2>
+    <div class="containerColumn" style="background-color: #e3f4f9; border-radius: 10px; border: 1px solid #000000;">
+        <h2 style="padding: 15px;">
             <?php echo $titulo; ?>
         </h2>
+
+        <hr style="width: 65%; border-color: #e3f4f9;">
 
         <h3>
             <?php echo $fecha; ?>
         </h3>
+
+        <hr style="width: 65%; border-color: #e3f4f9;">
+
 
         <h3>
             <?php echo $precio; ?>
