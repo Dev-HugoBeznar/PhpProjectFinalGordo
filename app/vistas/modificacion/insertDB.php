@@ -18,6 +18,7 @@ $fecha_inicio = $_POST['fecha_inicio'];
 $fecha_fin = $_POST['fecha_fin'];
 $precio = $_POST['precio'];
 $destacado = $_POST['destacado'];
+$plazas = $_POST['plazas'];
 $tipo_de_viaje = $_POST['tipo_de_viaje'];
 $imagen = $_POST['imagen'];
 
@@ -29,13 +30,14 @@ $stmt = $conn->prepare(
          fecha_fin = ?, 
          precio = ?, 
          destacado = ?, 
-         tipo_de_viaje = ?, 
+         tipo_de_viaje = ?,
+         plazas = ?, 
          imagen = ?
      WHERE id_viaje = ?"
 );
 
 $stmt->bind_param(
-    "ssssdissi",
+    "ssssdisisi",
     $titulo,
     $descripcion,
     $fecha_inicio,
@@ -43,6 +45,7 @@ $stmt->bind_param(
     $precio,
     $destacado,
     $tipo_de_viaje,
+    $plazas,
     $imagen,
     $id_viaje
 );

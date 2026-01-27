@@ -50,12 +50,23 @@ if ($result->num_rows === 1) {
     $precio = $viaje["precio"];
     $destacado = $viaje["destacado"];
     $tipo = $viaje["tipo_de_viaje"];
+    $plazas = $viaje["plazas"];
     $imagen = $viaje["imagen"];
 } else {
     echo "Viaje no encontrado";
 }
 
 $stmt->close();
+
+
+if (!empty($imagen)) {
+    if (filter_var($imagen, FILTER_VALIDATE_URL)) {
+        $src = $imagen;
+    } else {
+        $src = "../../assets/imagenes/" . $imagen;
+    }
+}
+
 ?>
 
 
@@ -85,6 +96,9 @@ $stmt->close();
         <label class="labelTipos">Precio:</label>
         <input type="number" class="formTextFormat" name="precio" value="<?php echo trim($precio); ?>" required><br>
 
+        <label class="labelTipos">Plazas:</label>
+        <input type="number" class="formTextFormat" name="plazas" value="<?php echo trim($plazas) ?>" required><br>
+
         <label class="labelTipos">Destacado (1 para sí, 0 para no):</label>
         <input type="number" class="formTextFormat" name="destacado" value="<?php echo trim($destacado); ?>"
             required><br>
@@ -94,6 +108,8 @@ $stmt->close();
 
         <label class="labelTipos">Imagen url:</label>
         <textarea class="formTextFormat" name="imagen" required><?php echo trim($imagen); ?></textarea><br>
+
+        <img src="<?php echo $src; ?>" style="width: 20%; padding: 10px;">
 
         <input type="submit" value="Modificar Viaje" class="boton" style="margin-top: 20px;">
     </form>

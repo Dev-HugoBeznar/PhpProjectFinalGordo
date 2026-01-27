@@ -59,7 +59,7 @@ $stmt->close();
             </h3>
 
             <h3 style="padding: 10px;">
-                <?php echo $precio; ?>
+                <?php echo $precio; ?> €
             </h3>
         </div>
 

@@ -9,31 +9,29 @@
     <form action="./adicionIntoBD.php" method="post" enctype="multipart/form-data" class="menuModificacion">
 
         <label class="labelTipos">Título:</label>
-        <input type="text" class="formTextFormat" name="titulo" value="titulo" required><br>
+        <input type="text" class="formTextFormat" name="titulo" required><br>
 
         <label class="labelTipos">Descripción:</label>
-        <textarea class="formTextFormat" name="descripcion" required>descripcion</textarea><br>
+        <textarea class="formTextFormat" name="descripcion" required></textarea><br>
 
         <label class="labelTipos">Fecha de inicio:</label>
-        <input type="date" class="formTextFormat" name="fecha_inicio" value="" required><br>
+        <input type="date" class="formTextFormat" name="fecha_inicio" required><br>
 
         <label class="labelTipos">Fecha de fin:</label>
-        <input type="date" class="formTextFormat" name="fecha_fin" value="" required><br>
+        <input type="date" class="formTextFormat" name="fecha_fin" required><br>
 
         <label class="labelTipos">Precio:</label>
         <input type="number" class="formTextFormat" name="precio" value="0.00" required><br>
 
         <label class="labelTipos">Plazas:</label>
-        <input type="number" class="formTextFormat" name="plazas" value="0" required><br>
+        <input type="number" class="formTextFormat" name="plazas" required><br>
 
         <label class="labelTipos">Destacado (1 para sí, 0 para no):</label>
         <input type="number" class="formTextFormat" name="destacado" value="0" required><br>
 
         <label class="labelTipos">Tipo de viaje:</label>
-        <input type="text" class="formTextFormat" name="tipo_de_viaje" value="tipo" required><br>
+        <input type="text" class="formTextFormat" name="tipo_de_viaje" required><br>
 
-        <!-- en las que estan por defecto se usan archivos ya en el proyecto,
-         hay que cambiar para que se adapte a tambien url -->
         <label class="labelTipos">Imagen url:</label>
         <textarea class="formTextFormat" name="imagen" required></textarea><br>
 

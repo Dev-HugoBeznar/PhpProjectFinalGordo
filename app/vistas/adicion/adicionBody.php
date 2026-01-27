@@ -37,7 +37,10 @@
     ?>
 
     <div class="containerColumnCenter">
-        <a href="../adicion/adicionFormulario.php" class="boton">Agregar nuevo viaje</a>
+        <div style="height: 40px;"></div>
+        <a href="../adicion/adicionFormulario.php" class="boton" style="width: 50%;  padding: 18px;">+ + + + Agregar
+            nuevo
+            viaje + + + +</a>
 
     </div>
 </body>
