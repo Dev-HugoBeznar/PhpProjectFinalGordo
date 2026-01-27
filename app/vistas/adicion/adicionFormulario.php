@@ -6,8 +6,7 @@
 
 <body class="containerColumnCenter">
     <h1>Formulario de Adición</h1>
-    <form action="./insertDB.php?id_viaje=<?php echo $id_viaje; ?>" method="post" enctype="multipart/form-data"
-        class="menuModificacion">
+    <form action="./adicionIntoBD.php" method="post" enctype="multipart/form-data" class="menuModificacion">
 
         <label class="labelTipos">Título:</label>
         <input type="text" class="formTextFormat" name="titulo" value="titulo" required><br>
@@ -23,6 +22,9 @@
 
         <label class="labelTipos">Precio:</label>
         <input type="number" class="formTextFormat" name="precio" value="0.00" required><br>
+
+        <label class="labelTipos">Plazas:</label>
+        <input type="number" class="formTextFormat" name="plazas" value="0" required><br>
 
         <label class="labelTipos">Destacado (1 para sí, 0 para no):</label>
         <input type="number" class="formTextFormat" name="destacado" value="0" required><br>
