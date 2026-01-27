@@ -7,6 +7,7 @@
             justify-content: center;
             align-items: center;
             background-color: lightblue;
+            border: 1px solid #000;
             border-radius: 5px;
             padding: 10px;
             width: 90%;
@@ -16,7 +17,7 @@
 
 
 
-    <div style="background-image: url('../assets/imagenes/beznar.jpg'); width: 100%; height: 100%; border-radius: 5px;"
+    <div style="background-image: url('../assets/imagenes/beznar.jpg'); width: 100%; height: 100%; border-radius: 5px; background-repeat: no-repeat; background-size: cover;"
         class="containerColumn">
         <h2 style="text-align: center; color: white; font-size: 50;">Viaja con nosotros</h2>
         <p style="text-align: center; color: white; padding:80px; font-size: 20;">
@@ -43,7 +44,7 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.</p>
                 <img src="../assets/imagenes/casaAleatoria.png"
-                    style="width: 400px; height: 300px; padding: 10px; border-radius: 15px;">
+                    style="width: 40%; height: auto; padding: 10px; border-radius: 15px;">
             </div>
         </div>
     </div>

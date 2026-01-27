@@ -77,6 +77,17 @@
         border: 1px solid black;
         border-radius: 5px;
     }
+
+    .menuModificacion {
+        background-color: lightblue;
+        border: 1px solid #646464;
+        border-radius: 10px;
+        color: black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 90px;
+    }
 </style>
 
 <?php

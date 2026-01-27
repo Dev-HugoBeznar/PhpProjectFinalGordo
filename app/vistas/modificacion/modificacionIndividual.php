@@ -13,17 +13,6 @@
         font-size: 20px;
         font-family: Arial, sans-serif;
     }
-
-    .menuModificacion {
-        background-color: lightblue;
-        border: 1px solid #646464;
-        border-radius: 10px;
-        color: black;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding: 90px;
-    }
 </style>
 
 
