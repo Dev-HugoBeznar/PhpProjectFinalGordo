@@ -35,10 +35,12 @@ $stmt->close();
 ?>
 
 <?php
-if (filter_var($imagen, FILTER_VALIDATE_URL)) {
-    $src = $imagen;
-} else {
-    $src = "../assets/imagenes/" . $imagen;
+if (!empty($imagen)) {
+    if (filter_var($imagen, FILTER_VALIDATE_URL)) {
+        $src = $imagen;
+    } else {
+        $src = "../assets/imagenes/" . $imagen;
+    }
 }
 ?>
 

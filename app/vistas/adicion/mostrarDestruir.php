@@ -21,9 +21,9 @@ $result = $stmt->get_result();
 if ($result->num_rows === 1) {
     $viaje = $result->fetch_assoc();
 
-    $titulo = $viaje["titulo"] . "<br>";
-    $fecha = $viaje["fecha_inicio"] . "<br>";
-    $precio = $viaje["precio"] . "€<br>";
+    $titulo = $viaje["titulo"];
+    $fecha = $viaje["fecha_inicio"];
+    $precio = $viaje["precio"];
     $imagen = $viaje["imagen"];
     $descripcion = $viaje["descripcion"];
     $tipo = $viaje["tipo_de_viaje"];
@@ -31,16 +31,17 @@ if ($result->num_rows === 1) {
     echo "Viaje no encontrado";
 }
 
-$stmt->close();
-?>
+$src = "";
 
-
-<?php
-if (filter_var($imagen, FILTER_VALIDATE_URL)) {
-    $src = $imagen;
-} else {
-    $src = "../assets/imagenes/" . $imagen;
+if (!empty($imagen)) {
+    if (filter_var($imagen, FILTER_VALIDATE_URL)) {
+        $src = $imagen;
+    } else {
+        $src = "../../assets/imagenes/" . $imagen;
+    }
 }
+
+$stmt->close();
 ?>
 
 
