@@ -19,6 +19,7 @@ $fecha_fin = $_POST['fecha_fin'];
 $precio = $_POST['precio'];
 $destacado = $_POST['destacado'];
 $tipo_de_viaje = $_POST['tipo_de_viaje'];
+$imagen = $_POST['imagen'];
 
 $stmt = $conn->prepare(
     "UPDATE viajes 
@@ -28,12 +29,13 @@ $stmt = $conn->prepare(
          fecha_fin = ?, 
          precio = ?, 
          destacado = ?, 
-         tipo_de_viaje = ?
+         tipo_de_viaje = ?, 
+         imagen = ?
      WHERE id_viaje = ?"
 );
 
 $stmt->bind_param(
-    "ssssissi",
+    "ssssdissi",
     $titulo,
     $descripcion,
     $fecha_inicio,
@@ -41,6 +43,7 @@ $stmt->bind_param(
     $precio,
     $destacado,
     $tipo_de_viaje,
+    $imagen,
     $id_viaje
 );
 

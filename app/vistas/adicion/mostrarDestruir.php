@@ -35,8 +35,17 @@ $stmt->close();
 ?>
 
 
+<?php
+if (filter_var($imagen, FILTER_VALIDATE_URL)) {
+    $src = $imagen;
+} else {
+    $src = "../assets/imagenes/" . $imagen;
+}
+?>
+
+
 <div class="containerRow" style=" align-items: center; justify-content:space-between;">
-    <img src="../../assets/imagenes/<?php echo $imagen; ?>" style=" width: 20%; height: auto; padding: 10px;">
+    <img src="<?php echo $src; ?>" style=" width: 20%; height: auto; padding: 10px;">
     <div class="containerColumn" style=" padding: 10px;">
         <div class="containerRow" style="with: 100%; justify-content: space-around;">
             <h2 style="padding: 5px;">

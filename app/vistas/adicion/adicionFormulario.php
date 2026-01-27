@@ -30,8 +30,10 @@
         <label class="labelTipos">Tipo de viaje:</label>
         <input type="text" class="formTextFormat" name="tipo_de_viaje" value="tipo" required><br>
 
-        <label class="labelTipos">Imagen:</label>
-        <input type="text" class="formTextFormat" name="imagen" required><br>
+        <!-- en las que estan por defecto se usan archivos ya en el proyecto,
+         hay que cambiar para que se adapte a tambien url -->
+        <label class="labelTipos">Imagen url:</label>
+        <textarea class="formTextFormat" name="imagen" required></textarea><br>
 
 
         <input type="submit" value="Añadir Viaje" class="boton" style="margin-top: 20px;">

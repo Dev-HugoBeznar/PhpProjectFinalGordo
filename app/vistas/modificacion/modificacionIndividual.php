@@ -92,6 +92,8 @@ $stmt->close();
         <label class="labelTipos">Tipo de viaje:</label>
         <input type="text" class="formTextFormat" name="tipo_de_viaje" value="<?php echo trim($tipo); ?>" required><br>
 
+        <label class="labelTipos">Imagen url:</label>
+        <textarea class="formTextFormat" name="imagen" required><?php echo trim($imagen); ?></textarea><br>
 
         <input type="submit" value="Modificar Viaje" class="boton" style="margin-top: 20px;">
     </form>

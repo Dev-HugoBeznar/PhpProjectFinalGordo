@@ -34,8 +34,17 @@ if ($result->num_rows === 1) {
 $stmt->close();
 ?>
 
+<?php
+if (filter_var($imagen, FILTER_VALIDATE_URL)) {
+    $src = $imagen;
+} else {
+    $src = "../assets/imagenes/" . $imagen;
+}
+?>
+
 <div class="containerRow" style="justify-content: space-evenly;">
-    <img src="../assets/imagenes/<?php echo $imagen; ?>" style="width: 50%; height: auto; padding: 10px;">
+
+    <img src="<?php echo $src; ?>" style="width: 50%; height: auto; padding: 10px;">
     <div class="containerColumn">
         <h2>
             <?php echo $titulo; ?>
