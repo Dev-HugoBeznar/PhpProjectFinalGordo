@@ -10,7 +10,7 @@
 
 <?php include '.\home\homeHeather.php' ?>
 
-<div style="height: 5px;"></div>
+<div style="height: 8px;"></div>
 
 <?php include './home/homeBody.php' ?>
 

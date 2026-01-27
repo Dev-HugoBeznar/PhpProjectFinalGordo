@@ -11,7 +11,7 @@
             border-radius: 5px;
             padding: 10px;
             width: 90%;
-            height: 300px;
+            height: 90%;
         }
     </style>
 
