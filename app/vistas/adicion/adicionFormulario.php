@@ -6,7 +6,7 @@
 
 <body class="containerColumnCenter">
     <h1>Formulario de Adición</h1>
-    <form action="./adicionIntoBD.php" method="post" enctype="multipart/form-data" class="menuModificacion">
+    <form action="../../clases/adicionIntoBD.php" method="post" enctype="multipart/form-data" class="menuModificacion">
 
         <label class="labelTipos">Título:</label>
         <input type="text" class="formTextFormat" name="titulo" required><br>
@@ -33,7 +33,7 @@
         <input type="text" class="formTextFormat" name="tipo_de_viaje" required><br>
 
         <label class="labelTipos">Imagen url:</label>
-        <textarea class="formTextFormat" name="imagen" required></textarea><br>
+        <textarea class="formTextFormat" name="imagen" required>casaAleatoria.png</textarea><br>
 
 
         <input type="submit" value="Añadir Viaje" class="boton" style="margin-top: 20px;">

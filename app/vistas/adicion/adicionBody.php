@@ -20,12 +20,9 @@
         $id_viaje = $fila['id_viaje'];
         ?>
         <div class="containerColumnCenter">
-            <a href="../modificacion/modificacionIndividual.php?id_viaje=<?php echo $id_viaje; ?>"
-                style="background-color: lightblue; width: 80%; padding: 20px; border: 1px solid black; border-radius: 15px;">
 
-                <?php include 'mostrarDestruir.php'; ?>
+            <?php include 'mostrarDestruir.php'; ?>
 
-            </a>
         </div>
 
         <!--

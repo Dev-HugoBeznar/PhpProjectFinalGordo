@@ -78,8 +78,8 @@ if (!empty($imagen)) {
     <h2 style="font-size: 30px; color: white; font-family: Arial, sans-serif;">Modifica el viaje seleccionado</h2>
 
     <div class="containerRow" style="align-items: end;">
-        <form action="./insertDB.php?id_viaje=<?php echo $id_viaje; ?>" method="post" enctype="multipart/form-data"
-            class="menuModificacion">
+        <form action="../../clases/insertDB.php?id_viaje=<?php echo $id_viaje; ?>" method="post"
+            enctype="multipart/form-data" class="menuModificacion">
 
             <label class="labelTipos">Título:</label>
             <input type="text" class="formTextFormat" name="titulo" value="<?php echo trim($titulo); ?>" required><br>
