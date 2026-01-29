@@ -10,7 +10,7 @@
             border: 1px solid #000;
             border-radius: 5px;
             padding: 10px;
-            width: 95%;
+            width: 90%;
             height: 90%;
         }
     </style>

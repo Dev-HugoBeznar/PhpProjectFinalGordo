@@ -44,9 +44,9 @@ if (!empty($imagen)) {
 }
 ?>
 
-<div class="containerRow" style="justify-content: space-evenly; padding: 10px;">
+<div class="containerRow" style="justify-content: space-evenly; padding: 10px; align-items: center;">
 
-    <img src="<?php echo $src; ?>" style="width: 50%; height: auto; padding: 10px; border-radius: 50000px;">
+    <img src="<?php echo $src; ?>" style="width: 50%; height: 200px; padding: 10px; border-radius: 50000px;">
     <div class="containerColumn" style="background-color: #e3f4f9; border-radius: 10px; border: 1px solid #000000;">
         <h2 style="padding: 15px;">
             <?php echo $titulo; ?>
