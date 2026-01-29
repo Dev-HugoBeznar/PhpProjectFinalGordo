@@ -21,7 +21,7 @@
             <input type="submit" value="buscar Viaje" class="boton" style="margin-top: 20px;">
         </form>
     </div>
-    <div style="height: 15px;"> </div>
+    <div style="height: 10px;"> </div>
 
 </header>
 <div style="height: 20px;"> </div>

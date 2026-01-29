@@ -1,4 +1,13 @@
 <body>
+    <div class="containerColumnCenter">
+        <a href="./formularioAdicion.php" class="boton" style="width: 50%;  padding: 18px;">+ + + +
+            Agregar
+            nuevo
+            viaje + + + +</a>
+        <div style="height: 20px;"></div>
+
+    </div>
+
     <?php
     $servername = "localhost";
     $username = "root";
