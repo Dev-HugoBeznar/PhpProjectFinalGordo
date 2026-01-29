@@ -13,13 +13,16 @@
         <a href="../public/adicion.php" class="boton">
             nuestros <strong>viajes</strong>
         </a>
-        <a class="boton">nuestro <strong>estilo</strong></a>
-        <a class="boton">antes de <strong>viajar</strong></a>
-        <a class="boton"><strong>El coordinador</strong></a>
-        <a class="boton">comunidad <strong>viajera</strong></a>
+
+        <form action="./buscador.php" method="post" enctype="multipart/form-data" class="containerRow"
+            style="align-items: center;">
+            <input type="text" class="formTextFormat" name="buscar" required><br>
+
+            <input type="submit" value="buscar Viaje" class="boton" style="margin-top: 20px;">
+        </form>
     </div>
     <div style="height: 15px;"> </div>
 
-
-
 </header>
+<div style="height: 20px;"> </div>
+<div></div>

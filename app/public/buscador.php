@@ -11,7 +11,9 @@
 
 
 <?php include '../vistas/header.php' ?>
-<?php include '../vistas/adicion/adicionBody.php' ?>
+
+
+<?php include '../vistas/buscador/buscadorBody.php' ?>
 <?php include '../vistas/footer.php' ?>
 
 </html>
