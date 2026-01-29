@@ -8,11 +8,11 @@
 </head>
 
 
-<?php include '..\vistas\home\homeHeader.php' ?>
+<?php include '..\vistas\header.php' ?>
 
 <div style="height: 8px;"></div>
 
 <?php include '..\vistas\home\homeBody.php' ?>
-<?php include '..\vistas\home\homeFooter.php' ?>
+<?php include '..\vistas\footer.php' ?>
 
 </html>

@@ -10,11 +10,11 @@
 </head>
 
 
-<?php include '../vistas/adicion/adicionHeader.php' ?>
+<?php include '../vistas/header.php' ?>
 
 <div style="height: 5px;"></div>
 
 <?php include '../vistas/adicion/adicionBody.php' ?>
-<?php include '../vistas/adicion/adicionFooter.php' ?>
+<?php include '../vistas/footer.php' ?>
 
 </html>
