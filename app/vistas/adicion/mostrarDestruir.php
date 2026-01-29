@@ -37,7 +37,7 @@ if (!empty($imagen)) {
     if (filter_var($imagen, FILTER_VALIDATE_URL)) {
         $src = $imagen;
     } else {
-        $src = "../../assets/imagenes/" . $imagen;
+        $src = "../assets/imagenes/" . $imagen;
     }
 }
 
@@ -48,7 +48,7 @@ $stmt->close();
 <div class="containerRow"
     style=" align-items: center; justify-content:space-between; height: 300px; width: 80%; background-color: lightblue; padding: 15px; border: 1px solid #000000; border-radius: 15px;">
     <img src="<?php echo $src; ?>" style=" width: 30%; height: 90%; padding: 10px; border-radius: 20px;">
-    <a href="../modificacion/modificacionIndividual.php?id_viaje=<?php echo $id_viaje; ?>" style="width: 50%;">
+    <a href="../public/modificacion.php?id_viaje=<?php echo $id_viaje; ?>" style="width: 50%;">
         <div class="containerColumn"
             style=" padding: 10px; background-color: #e3f4f9; border-radius: 15px; border: 1px solid #000000;">
             <div class="containerRow" style="with: 100%; justify-content: space-around;">
@@ -75,8 +75,8 @@ $stmt->close();
             </div>
         </div>
     </a>
-    <button onclick="window.location.href='../../clases/borrarViaje.php?id_viaje=<?php echo $id_viaje; ?>'"
-        class="boton" style="background-color: #FF8787; color: white; cursor: pointer;">
+    <button onclick="window.location.href='../clases/borrarViaje.php?id_viaje=<?php echo $id_viaje; ?>'" class="boton"
+        style="background-color: #FF8787; color: white; cursor: pointer;">
         Eliminar viaje
     </button>
 </div>

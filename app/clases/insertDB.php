@@ -55,6 +55,6 @@ $stmt->execute();
 $stmt->close();
 $conn->close();
 
-header("Location: ../vistas/modificacion/modificacionIndividual.php?id_viaje=" . $id_viaje);
+header("Location: ../public/modificacion.php?id_viaje=" . $id_viaje);
 exit;
 ?>

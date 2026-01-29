@@ -1,3 +1,5 @@
+<?php include '../assets/estilos/generalCss.php' ?>
+
 <header>
     <div class="containerRow" style="align-items: center; padding: 10px;">
         <h1>ARWIBE</h1>
@@ -10,7 +12,7 @@
         <a href=".\index.php" class="boton">
             home
         </a>
-        <a href="./adicion/adicion.php" class="boton">
+        <a href="../public/adicion.php" class="boton">
             nuestros <strong>viajes</strong>
         </a>
         <a class="boton">nuestro <strong>estilo</strong></a>

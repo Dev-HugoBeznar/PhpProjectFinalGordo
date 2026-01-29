@@ -53,6 +53,6 @@ $stmt->execute();
 $stmt->close();
 $conn->close();
 
-header("Location: ../vistas/adicion/adicion.php");
+header("Location: ../public/adicion.php");
 exit;
 ?>

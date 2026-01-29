@@ -1,4 +1,4 @@
-<?php include '..\..\assets\estilos\generalCss.php' ?>
+<?php include '..\assets\estilos\generalCss.php' ?>
 
 <html>
 
@@ -63,14 +63,12 @@ if (!empty($imagen)) {
     if (filter_var($imagen, FILTER_VALIDATE_URL)) {
         $src = $imagen;
     } else {
-        $src = "../../assets/imagenes/" . $imagen;
+        $src = "../assets/imagenes/" . $imagen;
     }
 }
 
 ?>
 
-
-<?php include './modificacionHeather.php' ?>
 
 
 <div class="containerColumnCenter" style="padding: 50px;">
@@ -78,7 +76,7 @@ if (!empty($imagen)) {
     <h2 style="font-size: 30px; color: white; font-family: Arial, sans-serif;">Modifica el viaje seleccionado</h2>
 
     <div class="containerRow" style="align-items: end;">
-        <form action="../../clases/insertDB.php?id_viaje=<?php echo $id_viaje; ?>" method="post"
+        <form action="../clases/insertDB.php?id_viaje=<?php echo $id_viaje; ?>" method="post"
             enctype="multipart/form-data" class="menuModificacion">
 
             <label class="labelTipos">Título:</label>
@@ -122,8 +120,5 @@ if (!empty($imagen)) {
     </div>
 </div>
 
-
-
-<?php include './modificacionFooter.php' ?>
 
 </html>

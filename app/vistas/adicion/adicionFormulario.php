@@ -1,12 +1,6 @@
-<?php include '../../assets/estilos/generalCss.php' ?>
-
-
-<?php include '../adicion/adicionHeather.php' ?>
-
-
 <body class="containerColumnCenter">
     <h1>Formulario de Adición</h1>
-    <form action="../../clases/adicionIntoBD.php" method="post" enctype="multipart/form-data" class="menuModificacion">
+    <form action="../clases/adicionIntoBD.php" method="post" enctype="multipart/form-data" class="menuModificacion">
 
         <label class="labelTipos">Título:</label>
         <input type="text" class="formTextFormat" name="titulo" required><br>
@@ -39,5 +33,3 @@
         <input type="submit" value="Añadir Viaje" class="boton" style="margin-top: 20px;">
     </form>
 </body>
-
-<?php include '../adicion/adicionFooter.php' ?>

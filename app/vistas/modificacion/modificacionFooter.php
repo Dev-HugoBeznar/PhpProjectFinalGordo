@@ -2,7 +2,7 @@
 
     <div class="containerRow" style="padding: 20px; align-items: center; justify-content: space-evenly;">
         <h3>Contacta con nosotros </h3>
-        <img src="../../assets/imagenes/logo.png" alt="logo" style="width: 150px; height: 150px; ">
+        <img src="../assets/imagenes/logo.png" alt="logo" style="width: 150px; height: 150px; ">
     </div>
 
     <hr style="border: 1px solid black; width: 65%;">
