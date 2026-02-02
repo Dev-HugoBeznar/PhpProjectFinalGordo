@@ -1,8 +1,8 @@
 <footer style="height: auto; margin-top: 50px;" class="containerColumnCenter">
 
     <div class="containerRow" style="padding: 20px; align-items: center; justify-content: space-evenly;">
-        <h3>Contacta con nosotros </h3>
-        <img src="../assets/imagenes/logo.png" alt="logo" style="width: 150px; height: 150px; ">
+        <h3>Contacta con nosotros</h3>
+        <img src="../assets/imagenes/logo.png" alt="logo" style="width: 150px; height: 150px;">
     </div>
 
     <hr style="border: 1px solid black; width: 65%;">
@@ -12,7 +12,20 @@
         <div style="width: 30px;"></div>
         <p>Email: fermintrujillo@espetomail.com</p>
         <div style="width: 30px;"></div>
-        <p>Dirección: <strong>Mirador de Montepinar</strong> Calle Ave del Paraíso, número 7, Madrid, España</p>
+        <p>Dirección: <strong>Mirador de Montepinar</strong>, Calle Ave del Paraíso, número 7, Madrid, España</p>
+    </div>
+
+    <hr style="border: 1px solid black; width: 65%;">
+
+    <div class="containerColumnCenter" style="padding: 15px; text-align: center;">
+        <p>
+            <a>Aviso legal</a> |
+            <a>Política de privacidad</a> |
+            <a>Política de cookies</a>
+        </p>
+        <p style="font-size: 0.9em;">
+            © 2026 EspetoMail · Proyecto php para mi profe favorito : D
+        </p>
     </div>
 
 </footer>
