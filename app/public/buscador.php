@@ -14,6 +14,7 @@
 
 
 <?php include '../vistas/buscador/buscadorBody.php' ?>
+
 <?php include '../vistas/footer.php' ?>
 
 </html>

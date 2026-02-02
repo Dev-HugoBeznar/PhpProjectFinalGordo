@@ -45,6 +45,13 @@
         width: 100%;
     }
 
+    .gridBuscador {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        padding: 10px;
+    }
+
     html,
     body {
         background-color: #0F8BFF;

@@ -18,11 +18,10 @@
             style="align-items: center;">
             <input type="text" class="formTextFormat" name="buscar" required><br>
 
-            <input type="submit" value="buscar Viaje" class="boton" style="margin-top: 20px;">
+            <input type="submit" value="buscar Viaje" class="boton" style="margin-left: 10px;">
         </form>
     </div>
     <div style="height: 10px;"> </div>
 
 </header>
-<div style="height: 20px;"> </div>
-<div></div>
+<div style="height: 20px;"></div>
