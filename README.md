@@ -10,7 +10,7 @@ Instrucciones de instalacion
 
 Clonar el repositorio
 Abre una terminal y ejecuta el siguiente comando para descargar los archivos:
-git clone https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/Dev-HugoBeznar/PhpProjectFinalGordo.git
+git clone https://github.com/Dev-HugoBeznar/PhpProjectFinalGordo.git
 
 Configurar la base de datos
 Importa el archivo .sql que viene en la carpeta del proyecto a tu servidor local (usando phpMyAdmin o tu herramienta de preferencia).
